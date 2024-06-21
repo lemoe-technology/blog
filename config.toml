@@ -1,4 +1,15 @@
-baseURL = 'http://blog.yukisora.moe/'
+baseURL = 'https://blog.lemoes.com/'
 languageCode = 'en'
 theme = 'paper'
-title = 'Yuki Sora'
+title = "Yuki Sora's Note"
+
+[params]
+  avatar = 'https://oss.lemoes.com/blog/avatar.png'
+  name = 'Yuki Sora'
+  bio = 'Do some homework.'
+  description = "Yuki Sora's Note"
+
+  monoDarkIcon = true
+
+[markup.goldmark.renderer]
+  unsafe = true
