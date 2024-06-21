@@ -1,0 +1,4 @@
+baseURL = 'http://blog.yukisora.moe/'
+languageCode = 'en'
+theme = 'paper'
+title = 'Yuki Sora'
